@@ -1,0 +1,9 @@
+.DS_Store
+uploads/
+node_modules/
+bower_components/
+.sass-cache/
+vendor/
+yarn-error.log
+npm-debug.log
+
