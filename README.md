@@ -120,7 +120,7 @@ Installation instructions are here:
 
 [github.com/creationix/nvm/blob/master/README.markdown](https://github.com/creationix/nvm/blob/master/README.markdown#install-script)
 
-Once installed, have a look at the [`package.json`](../package.json) file, and check the value of the `"node"` property within the `"engines"` object. Use this value to set your `node` version. For example:
+Once installed, select the version of node you want to use. For example, to use version `6.8.0`:
 
 ``` sh
 $ nvm install 6.8.0 && nvm use 6.8.0
