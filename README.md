@@ -41,7 +41,7 @@ $ git --version
 git version 2.10.0
 ```
 
-Configure your name and email address for commits (be sure to use the email address you have registered with gitlab):
+Configure your name and email address for commits (be sure to use the email address you have registered with GitHub):
 
 ``` sh
 $ git config --global user.name "Your Name"
