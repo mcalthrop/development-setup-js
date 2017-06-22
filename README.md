@@ -169,3 +169,6 @@ drwxr-xr-x  38 root       wheel  1360 Nov 11 13:06 ..
 drwxr-xr-x   8 yourusername  wheel   272 Nov 11 13:10 db
 ```
 
+## License
+
+[MIT](LICENSE)
