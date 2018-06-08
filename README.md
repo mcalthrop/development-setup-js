@@ -37,7 +37,7 @@ Ensure you're not using the macOS version of `git`:
 $ which git
 /usr/local/bin/git      # should NOT be /usr/bin/git
 $ git --version
-git version 2.10.0
+git version 2.17.1
 ```
 
 Configure your name and email address for commits (be sure to use the email address you have registered with GitHub):
@@ -144,16 +144,23 @@ Installation instructions are here:
 
 [github.com/creationix/nvm/blob/master/README.markdown](https://github.com/creationix/nvm/blob/master/README.markdown#install-script)
 
-Once installed, select the version of node you want to use. For example, to use version `6.8.0`:
+Once installed, select the version of node you want to use. For example, to use version `10.4.0`:
 
 ``` sh
-$ nvm install 6.8.0 && nvm use 6.8.0
+$ nvm install 10.4.0
+Downloading and installing node v10.4.0...
+Downloading https://nodejs.org/dist/v10.4.0/node-v10.4.0-darwin-x64.tar.gz...
+######################################################################## 100.0%
+Computing checksum with shasum -a 256
+Checksums matched!
+Now using node v10.4.0 (npm v6.1.0)
 ```
 
 And to verify that the above process completed correctly, the following command should show the `node` version you selected:
 
 ``` sh
 $ node --version
+v10.4.0
 ```
 
 You should also run this command [to avoid updating the default alias along with node version updates later on](http://stackoverflow.com/a/31859164):
