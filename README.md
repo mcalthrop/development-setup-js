@@ -4,25 +4,24 @@ Useful setup instructions forJavascript projects, whether client- or server-side
 
 > These installation instructions assume you are using macOS. Instructions for other operating systems will vary.
 
-## xcode
+## iTerm
 
-Ensure you've got [Xcode installed](https://itunes.apple.com/us/app/xcode/id497799835) – this will enable you to use `git`.
-
-You may have to agree to the OS/X license terms:
-
-- Run from the command line: `xcode-select --install`
-- Choose `install tools` from the prompt and `agree` to the terms
-- If you receive a message saying "Can't install the software because it is not currently available from the Software Update server"... it's probably because the command line tools are already installed...
-- Agree to the license by typing `sudo xcodebuild -license`
-- Press enter, then `q`
-- Then on the next prompt, type `agree`
-
+The Terminal app is ok, but iTerm is better: [download](https://www.iterm2.com/downloads.html) and install it.
 
 ## Brew
 
-There are lots of useful utilities available for installation with `brew`.
+There are lots of useful packages available for installation with `brew`.
 
-Install it from here: [brew.sh](http://brew.sh/#install)
+Install it from here: [brew.sh](http://brew.sh/#install).
+
+Then install some packages:
+
+```bash
+$ brew install tree
+$ brew install yarn
+```
+
+`yarn` is a [new package manager for JavaScript](https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/).
 
 ## Git
 
@@ -32,7 +31,7 @@ Best use the `brew` version of `git` &ndash; makes it easier to update than the 
 $ brew install git
 ```
 
-Ensure you're not using the OS/X version of `git`:
+Ensure you're not using the macOS version of `git`:
 
 ``` sh
 $ which git
@@ -58,16 +57,40 @@ On a large project, I usually prefer to use [Airbnb's eslint configuration](http
 
 However, a more simple approach is to extend the `eslint:recommended` set of rules: [`.eslintrc`](.eslintrc).
 
-## Atom
+## VS Code
 
-There are lots of editors you can use; here are instructions for setting up Atom:
+1. Download [Visual Studio Code](https://code.visualstudio.com/download), install it, and open it.
+
+2. Open **Extensions** (`Cmd-Shift-X`), and add the following extensions:
+
+  - Debugger for Chrome
+  - EditorConfig for Visual Studio Code
+  - ESLint
+    - then run `npm install -g eslint` from the terminal
+    - and restart VS Code
+  - GitLens
+    - suggestion: configure the _Absolute date format_ setting: `ddd D MMM YYYY`
+  - Sass Lint
+  - TSLint
+    - then run `npm install -g tslint typescript` from the terminal
+    - and restart VS Code
+  - vscode-icons
+
+3. Open **Settings** (`Cmd-,`), and customise the following settings:
+
+  - `"terminal.integrated.shell.osx": "/bin/zsh"`
+  - `"terminal.external.osxExec": "iTerm.app"`
+
+## Atom
 
 1. Download [atom](https://atom.io/), and copy it into your `Applications` folder.
 
 2. If there is no file called `/usr/local/bin/atom`, run this command in your terminal: `sudo ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom`
+
 > This will allow you to run `atom` from the terminal.
 
-3. Open Atom, open Preferences (`cmd-,`), click on the _Install_ tab and install the following packages:
+3. Open Atom, open Preferences (`Cmd-,`), click on the _Install_ tab and install the following packages:
+
   - `atom-ternjs`
   - `color-picker`
   - `emmet`
@@ -83,6 +106,7 @@ There are lots of editors you can use; here are instructions for setting up Atom
   - `open-in-browser`
 
 4. In the _Editor_ panel, make the following changes:
+
   - **Invisibles** > **Scroll past end** – _check_
   - **Show Indent Guide** – _check_
   - **Show Line Numbers** – _check_
@@ -137,14 +161,6 @@ You should also run this command [to avoid updating the default alias along with
 ``` sh
 $ nvm alias default node
 ```
-
-## Yarn
-
-Use [`yarn`](https://yarnpkg.com/) instead of `npm` (see [Facebook's post](https://code.facebook.com/posts/1840075619545360) for a description).
-
-Install the CLI like this:
-
-[https://yarnpkg.com/lang/en/docs/install/#mac-tab](https://yarnpkg.com/lang/en/docs/install/#mac-tab)
 
 ## Mongo
 
