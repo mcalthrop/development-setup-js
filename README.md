@@ -138,6 +138,7 @@ There are quite a few different IDEs you can use; here are setup instructions fo
     - then run `npm install -g tslint typescript` from the terminal
     - and restart VS Code
   - vscode-icons
+  - GraphQL for VSCode
 
 3. Open **Settings** (`Cmd-,`), and customise the following settings:
 
