@@ -139,11 +139,19 @@ There are quite a few different IDEs you can use; here are setup instructions fo
     - and restart VS Code
   - vscode-icons
   - GraphQL for VSCode
+  - Flow Language Support
+    - then run `npm install -g flow-bin` from the terminal
+    - and restart VS Code
+    - for each **Workspace** where you want to use `flow`, disable TypeScript:
+      - open **Extensions** (`Cmd-Shift-X`)
+      - search for `@builtin typescript`
+      - disable **TypeScript and JavaScript Language Features** for the workspace
 
-3. Open **Settings** (`Cmd-,`), and customise the following settings:
+3. Open **Settings** (`Cmd-,`)
 
-  - `"terminal.integrated.shell.osx": "/bin/zsh"`
-  - `"terminal.external.osxExec": "iTerm.app"`
+  - customise **User** settings:
+    - `"terminal.integrated.shell.osx": "/bin/zsh"`
+    - `"terminal.external.osxExec": "iTerm.app"`
 
 ### Atom
 
