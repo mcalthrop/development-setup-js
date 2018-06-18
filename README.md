@@ -142,10 +142,12 @@ There are quite a few different IDEs you can use; here are setup instructions fo
   - Flow Language Support
     - then run `npm install -g flow-bin` from the terminal
     - and restart VS Code
-    - for each **Workspace** where you want to use `flow`, disable TypeScript:
+    - disable TypeScript:
       - open **Extensions** (`Cmd-Shift-X`)
       - search for `@builtin typescript`
-      - disable **TypeScript and JavaScript Language Features** for the workspace
+      - disable **TypeScript and JavaScript Language Features**
+      - **NOTE:** if you want to use TypeScript, you will need to re-enable this extension
+      - yes, this is a pain :-/
 
 3. Open **Settings** (`Cmd-,`)
 
