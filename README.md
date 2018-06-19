@@ -139,15 +139,6 @@ There are quite a few different IDEs you can use; here are setup instructions fo
     - and restart VS Code
   - vscode-icons
   - GraphQL for VSCode
-  - Flow Language Support
-    - then run `npm install -g flow-bin` from the terminal
-    - and restart VS Code
-    - disable TypeScript:
-      - open **Extensions** (`Cmd-Shift-X`)
-      - search for `@builtin typescript`
-      - disable **TypeScript and JavaScript Language Features**
-      - **NOTE:** if you want to use TypeScript, you will need to re-enable this extension
-      - yes, this is a pain :-/
 
 3. Open **Settings** (`Cmd-,`)
 
