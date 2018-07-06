@@ -133,6 +133,8 @@ There are quite a few different IDEs you can use; here are setup instructions fo
     - and restart VS Code
   - GitLens
     - suggestion: configure the _Absolute date format_ setting: `ddd D MMM YYYY`
+  - npm support for VS Code
+  - Rainbow Brackets
   - Sass Lint
   - TSLint
     - then run `npm install -g tslint typescript` from the terminal
