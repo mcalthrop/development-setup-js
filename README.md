@@ -201,6 +201,14 @@ drwxr-xr-x  38 root       wheel  1360 Nov 11 13:06 ..
 drwxr-xr-x   8 yourusername  wheel   272 Nov 11 13:10 db
 ```
 
+## Sundry
+
+One thing macOS does not handle well is keyboard management of application windows. There are a couple of apps that plug this hole:
+
+- Spectacle app (free!) &ndash; https://www.spectacleapp.com/
+- Magnet (cheap!) &ndash; https://itunes.apple.com/gb/app/magnet/id441258766
+
+
 ## License
 
 [MIT](LICENSE)
