@@ -58,7 +58,7 @@ If you already like using `bash`, you'll appreciate using `zsh`.
 - Type `brew install zsh`. Type `0` if the prompt ask you about `.zshrc`.
 - Type `which zsh` to determine where your new shell has installed.
 - Edit `/etc/shells` and add `/usr/local/bin/zsh`
-- Type `sudo chsh -s /usr/local/bin/zsh`, then open a new terminal tab – `zsh` will now be the shell running.
+- Type `chsh -s /usr/local/bin/zsh`, then open a new terminal tab – `zsh` will now be the shell running.
 
 ### Oh My ZSH
 
