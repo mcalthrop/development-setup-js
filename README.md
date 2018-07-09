@@ -80,7 +80,7 @@ Then open a new tab in your terminal app to see the changes.
 
 Installation instructions are here:
 
-[github.com/creationix/nvm/blob/master/README.markdown](https://github.com/creationix/nvm/blob/master/README.markdown#install-script)
+[github.com/creationix/nvm/blob/master/README.md](https://github.com/creationix/nvm/blob/master/README.md#install-script)
 
 Once installed, select the version of node you want to use. For example, to use version `10.4.0`:
 
