@@ -141,6 +141,7 @@ There are quite a few different IDEs you can use; here are setup instructions fo
     - and restart VS Code
   - vscode-icons
   - GraphQL for VSCode
+  - Jest (`orta.vscode-jest`)
 
 3. Open **Settings** (`Cmd-,`)
 
